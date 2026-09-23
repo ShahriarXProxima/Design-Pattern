@@ -2,7 +2,7 @@ package Factory.SimpleFactory;
 
 public class PremiumBurger extends Burger {
     @Override
-    void prepare(String s) {
-        super.prepare("Prepare a premium burger");
+    void prepare() {
+        System.out.println("Prepare a premium burger");;
     }
 }
