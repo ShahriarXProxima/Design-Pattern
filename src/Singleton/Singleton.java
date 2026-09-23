@@ -1,3 +1,5 @@
+package Singleton;
+
 public class Singleton {
     private static Singleton instance;
     private String data;

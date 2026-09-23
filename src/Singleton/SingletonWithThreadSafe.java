@@ -1,3 +1,5 @@
+package Singleton;
+
 public class SingletonWithThreadSafe {
     private static volatile SingletonWithThreadSafe instance;
     private String data;
