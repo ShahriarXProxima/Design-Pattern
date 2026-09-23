@@ -12,6 +12,10 @@ public class BurgerFactory {
             case "premium" -> {
                 return new PremiumBurger();
             }
+            default -> {
+                System.out.println("Invalid burger type");
+                return null;
+            }
         }
     }
 }
